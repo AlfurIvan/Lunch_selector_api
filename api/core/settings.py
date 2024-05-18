@@ -29,7 +29,7 @@ NEWEST_USERS_APP_VERSION = "2.0.0"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = int(os.environ.get('DEBUG', default=0))
 
-ALLOWED_HOSTS = "localhost 127.0.0.1 0.0.0.0".split(" ")
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', 'app.atr.pp.ua', '[::1]']
 
 
 # Application definition
