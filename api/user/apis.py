@@ -13,8 +13,8 @@ class RegisterApi(views.APIView):
     API to register new user with unique email
     New user can be created only by person with admin privileges
     """
-    authentication_classes = (authentication.CustomUserAuthentication, )
-    permission_classes = (permissions.IsAdminUser, )
+    # authentication_classes = (authentication.CustomUserAuthentication, )
+    permission_classes = (permissions.AllowAny, )
 
     def get(self, request):
         """hint what to input"""
