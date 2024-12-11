@@ -1,5 +1,5 @@
-# Inforce_test_task
-Test task for Inforce company.
+# test_task
+Test task.
 
 To deploy project run:
 sudo docker-compose up -d --build
